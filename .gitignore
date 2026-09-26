@@ -1,0 +1,26 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+.mcp.json
+.claude/
+screenshots/*
+manual/
+
+# Local instrument outputs, environments and caches
+output/
+.env.*
+!.env.example
+.pytest_cache/
+.DS_Store
+build/
+*.log
+
+# Keep vendor reference documents outside distributed source.
+/reference/
+MHO98*ProgrammingGuide*.pdf
+MHO98_SCPI_AI*
+/src/rigol_mcp/mho98/data/**/*.md
+/src/rigol_mcp/mho98/data/*.md
